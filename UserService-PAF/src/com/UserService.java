@@ -15,6 +15,7 @@ import model.User;
 public class UserService {
 	User UserObj = new User();
 
+	
 	@GET
 	@Path("/")
 	@Produces(MediaType.TEXT_HTML)
