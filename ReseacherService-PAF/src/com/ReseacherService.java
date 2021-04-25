@@ -16,6 +16,7 @@ import org.jsoup.nodes.Document;
 public class ReseacherService {
 	Researcher ResearcherObj = new Researcher();
 
+	
 	@GET
 	@Path("/")
 	@Produces(MediaType.TEXT_HTML)
